@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: red;
+    width: 50vw;
+    height: 40vh;
+
+}
+.box{
+    width: 5vw;
+    height: 4vh;
+    background-color: antiquewhite;
+    transition: all 3s ease-in-out 1s;
+  
+}
+.translate:hover{
+    transform: translateX(10vw) translateY(10vh) scale(2);
+    background-color: blue;
+}
